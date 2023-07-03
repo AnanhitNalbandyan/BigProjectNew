@@ -1,4 +1,5 @@
 import st from './style.module.scss'
+import bush from './Images/bush.png'
 
 export const SaleSeason = () => {
     
@@ -6,7 +7,7 @@ export const SaleSeason = () => {
     return (
         <div className={st.container}>
             
-            <img className={st.bush} src="./Images/bush.png" alt="" />
+            <img className={st.bush} src={bush} alt="" />
 
             <div className={st.wrapper}>
                 <h1> Sale </h1>

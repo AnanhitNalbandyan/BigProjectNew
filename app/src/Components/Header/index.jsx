@@ -1,10 +1,13 @@
 import st from './style.module.scss'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
+import bag from './Images/shoppingbag.svg'
+import logo from './Images/logo.png'
 
 
-const logo = "./Images/logo.png"
 
-const bag = "./Images/icons8-shopping_bag 1.svg"
+
+
+
 
 export const Header = () => {
     
@@ -37,8 +40,9 @@ export const Header = () => {
                 </nav>
                 
 
-                <a href="#"><img className={st.bag} src={bag}  alt=""/></a> 
-
+            <a href="#"><img className={st.bag} src={bag} alt="" /></a> 
+            
+            
         </div>
     )
 }

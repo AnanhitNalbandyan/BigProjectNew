@@ -2,9 +2,18 @@
     width: 96%;
     height: 476px;
     background: linear-gradient(223deg, #393 0%, #006300 100%);
+    display: flex;
+}
+.litleman{
+    width: 422px;
+    height: 422px;
+    margin: 27px 0 27px 91px;
+}
+.textInput{
+    display: block;
 }
 .text{
-    margin: 47px 0 46px 712px;
+    margin: 47px 0 46px 199px;
 }
 
 p{
@@ -28,8 +37,8 @@ p span{
 .formInput{
     width: 475px;
     height: auto;
-    margin-left: 712px;
-    display: block;
+    margin-left: 199px;
+    
 }
 .input{
     width: 473px;
